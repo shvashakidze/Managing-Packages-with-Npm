@@ -1,11 +1,13 @@
 {
 	"description": "freecodecamp project",
 	"author": "shota vashakidze",
-	"keywords": ["freecodecamp", "project"],
+	"keywords": [
+		"freecodecamp",
+		"project"
+	],
 	"name": "fcc-learn-npm-package-json",
 	"dependencies": {
-		"express": "^4.14.0",
-		"moment": "^2.10.2"
+		"express": "^4.14.0"
 	},
 	"main": "server.js",
 	"scripts": {
@@ -17,7 +19,6 @@
 	"repository": {
 		"type": "git",
 		"url": "https://idontknow/todo.git"
-
 	},
 	"license": "MIT",
 	"version": "0.0.1"
