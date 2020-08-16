@@ -31,7 +31,7 @@ app.use('/public', express.static(__dirname + "/public"));
 
 /** 6) Use the .env file to configure the app */
  app.get("/json", function(req, res){
-    console.log(process.env.MASSAGE_STYLE, " <= message style"); 
+    console.log(process.env.MESSAGE_STYLE, ' <= message style'); 
     if (process.env.MASSAGE_STYLE === "uppercase"){
          res.json(
              {"mesage": "HELLO JSON"}
