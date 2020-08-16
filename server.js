@@ -61,7 +61,7 @@ app.get("/", function(req, res){
   res.sendfile(__dirname + "/views/index.html");
 });
 
-var port = process.env.PORT || 5000;
+var port = process.env.PORT || 3000;
 bGround.setupBackgroundApp(app, myApp, __dirname).listen(port, function () {
   bGround.log('Node is listening on port '+ port + '...')
 });
